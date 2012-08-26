@@ -33,6 +33,13 @@ An app that mimics the functionality of Hacker News. Created in 3 days with a pa
 Code Snippets
 =============
 
+Tic Tac Toe
+------------
+
+[demo](http://perspectivezoom.github.com/tictactoe) - [source](https://github.com/perspectivezoom/tictactoe)
+
+A simple implementation of Tic Tac Toe, written in Javascript. AI recursively computes the entire game tree for each move. I've hardcoded the first move, but note that computer will spend about 10 seconds computing its second move.
+
 Sudoku
 ------
 [source](https://gist.github.com/2992997)
