@@ -105,7 +105,21 @@ header {
   position:fixed;
 }
 
-header ul {
+ul {
+  list-style-type: none;
+}
+
+ul.posts {
+  padding:0px;
+}
+
+ul .postURL {
+  padding-left: 20px;
+}
+
+/*
+  Styles from the original theme used ul to make buttons. Unnecessary here
+  header ul {
   list-style:none;
   height:40px;
   
@@ -142,11 +156,6 @@ header ul a {
   height:40px;
 }
 
-strong {
-  color:#222;
-  font-weight:700;
-}
-
 header ul li + li {
   width:88px;
   border-left:1px solid #fff;
@@ -161,6 +170,11 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
+}*/
+
+strong {
+  color:#222;
+  font-weight:700;
 }
 
 section {

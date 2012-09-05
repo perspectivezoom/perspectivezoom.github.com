@@ -2,8 +2,8 @@
 layout: default
 ---
 
-Selected Projects
-=================
+Projects
+========
 
 Gmailytics
 ----------
