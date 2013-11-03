@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  color:#333;
   font-weight:300;
 }
 
@@ -115,6 +115,10 @@ ul.posts {
 
 ul .postURL {
   padding-left: 20px;
+}
+
+a[rev='footnote'] {
+  display: none;
 }
 
 /*
