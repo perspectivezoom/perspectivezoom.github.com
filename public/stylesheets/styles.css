@@ -117,12 +117,8 @@ ul .postURL {
   padding-left: 20px;
 }
 
-/* GFM footnotes: keep the back-reference arrows hidden and the "Footnotes"
-   heading for assistive technology only, with the old <hr> separator. */
-.data-footnote-backref {
-  display: none;
-}
-
+/* GFM footnotes: the "Footnotes" heading is for assistive technology only,
+   and the section keeps the old <hr> separator. */
 .sr-only {
   position: absolute;
   width: 1px;
