@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ../../layouts/Base.astro
 ---
 
 Projects
