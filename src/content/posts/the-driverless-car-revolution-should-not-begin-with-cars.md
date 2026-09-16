@@ -1,5 +1,5 @@
 ---
-title: "The Driverless Car Revolution Should Not Begin with Cars"
+title: 'The Driverless Car Revolution Should Not Begin with Cars'
 date: 2013-11-03
 ---
 
@@ -11,7 +11,7 @@ My interest is not what the future will look like, but rather how we get there. 
 
 For me, the key question is: Who will drive adoption?[^4] The vast majority of interest has been focused on the urban market, mostly because the Urban Future is the one closest to the present: All you have to do is imagine Uber and stick a robot in the driver's seat. I wouldn't completely discount the suburban market, though. There are a myriad of options to commute in an urban environment, but none of them work particularly well anywhere else. The value-add of driverless cars in suburbia is significantly higher than in urban areas, because in suburbia you simply cannot get around except in a car.
 
-With that said, if I had the chance to accelerate[^5] the adoption of driverless cars, I wouldn't focus on either of those markets: I would look at  trucking. Specifically, I would look at long haul trucking, the subset that usually does not travel to urban nor suburban areas in the first place.
+With that said, if I had the chance to accelerate[^5] the adoption of driverless cars, I wouldn't focus on either of those markets: I would look at trucking. Specifically, I would look at long haul trucking, the subset that usually does not travel to urban nor suburban areas in the first place.
 
 Let's get the obvious advantage out of the way first: Compared to driverless cars, driverless trucking is technically way simpler. When going from one warehouse in a sparsely populated area to a another warehouse in a similarly sparsly populated area, there's a lot less that can go wrong. There are significantly fewer one way streets, fewer bicyclists, fewer pedestrians. The directions will be simpler on average. Because there are less people to potentially kill, legal liability will be comparatively lower. All things considered, long haul trucking seems to be the Minimum Viable Product of driverless cars: Start with the basic functionality, iterate, and then gradually introduce driverless trucking into suburban and urban environments as the technology improves and your safety record lowers your liability insurance.[^6]
 
@@ -20,12 +20,21 @@ The other major advantage to trucking is that it's a commoditized business servi
 To all the Old Guard, Blue Blood Venture Capitalists out there dispairing over the asymptotically zero activation energy of technology startups: This one's for you. It's going to take quite a lot of capital to get this engine going,[^9] and the revolution will not be coming from the inside. Trucking is a highly fragmented industry, and margins are too low for serious investment from the existing players.[^10] It's going to need some outside help.
 
 [^1]: http://googleblog.blogspot.com/2010/10/what-were-driving-at.html
+
 [^2]: https://plus.google.com/103583939320326217147/posts/TpN1g1oSVbN
+
 [^3]: The X% faster claims are the ones that are the most interesting. The press loves highlighting the time savings because it's easily the biggest pain for its readers, and yet it will be one of the last benefits realized. Time savings is like herd immunity; its benefits are only available when the overwhelming majority of the population are on board. Even a small cluster of manual drivers / polio carriers can wreak havoc with the system.
+
 [^4]: Pun totally intended
+
 [^5]: Sorry
+
 [^6]: For those that are following along with the startup analogy, there's even an early adopter segment to appeal to: The companies that need to haul freight by truck for longer than the legally mandated 14 hours per day per driver, and consider speed to be paramount. Maybe it'll reduce their Just In Time inventory or something. I don't know. Whatever the reason, they'd be willing to pay a premium to get their stuff more quickly.
+
 [^7]: To be fair, I think this inflection point is farther away than you might think. I have a feeling that driver salary is relatively small as compared to fuel / capital / insurance costs.
+
 [^8]: Regardless of how you may feel about the subject, the Truck Driver will go the way of the Longshoreman. I recommend reading "The Box" by Marc Levinson
+
 [^9]: I'm a terrible person
+
 [^10]: Trucking consists of a plethora of small-fleet owner-operators. This reality is best explained by comparing container trucking to container shipping, which has the exact opposite ownership structure: a few huge conglomerates owning 99% of the market. In container shipping, bigger corporations build bigger ships, which can hold more containers and lower the cost per container ship. In container trucking, which is largely limited to one container per truck, bigger companies cannot achieve similarly meaningful economies of scale. Any efficiencies gained from a large corporation, such as consolidated dispatch and tracking, are outweighed by the overhead cost of maintaining that bureacracy.

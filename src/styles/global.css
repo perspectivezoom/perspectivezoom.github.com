@@ -10,8 +10,8 @@
   --color-link: #39c;
   --color-rule: #e5e5e5;
   --color-code-bg: #f8f8f8;
-  --font-body: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-mono: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  --font-body: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: Monaco, 'Bitstream Vera Sans Mono', 'Lucida Console', Terminal, monospace;
 }
 
 body {
@@ -21,12 +21,19 @@ body {
   color: var(--color-text);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-heading);
   margin: 0 0 20px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.1;
 }
 
@@ -38,11 +45,19 @@ h2 {
   color: var(--color-heading-2);
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-heading-3);
 }
 
-p, ul, ol, table, pre, dl {
+p,
+ul,
+ol,
+table,
+pre,
+dl {
   margin: 0 0 20px;
 }
 
@@ -75,7 +90,8 @@ blockquote {
   font-style: italic;
 }
 
-code, pre {
+code,
+pre {
   font-family: var(--font-mono);
   font-size: 12px;
   color: var(--color-text);
@@ -98,13 +114,15 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 5px 10px;
   border-bottom: 1px solid var(--color-rule);
 }
 
-th, dt {
+th,
+dt {
   color: #444;
 }
 
@@ -121,7 +139,8 @@ img {
     word-wrap: break-word;
   }
 
-  pre, code {
+  pre,
+  code {
     word-wrap: normal;
   }
 }

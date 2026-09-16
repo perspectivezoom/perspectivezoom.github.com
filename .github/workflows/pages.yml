@@ -28,7 +28,7 @@ jobs:
         with:
           node-version-file: package.json
       - run: bun install --frozen-lockfile
-      - run: bun run check
+      - run: bun run ci
       - run: bun run build
       - uses: actions/upload-pages-artifact@v5
         with:

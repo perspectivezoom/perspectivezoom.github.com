@@ -12,7 +12,9 @@ const { post } = Astro.props;
 
 <Base>
   <div id="post">
-    <h2><a href={postPath(post)}>{post.data.title}</a></h2>
+    <h2>
+      <a href={postPath(post)}>{post.data.title}</a>
+    </h2>
     <p id="date">{formatDate(post.data.date)}</p>
     <slot />
   </div>

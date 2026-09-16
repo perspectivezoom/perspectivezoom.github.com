@@ -1,17 +1,16 @@
 ---
-title: "Berkeley versus Stanford"
+title: 'Berkeley versus Stanford'
 date: 2013-05-16
 draft: true
 categories: [my life]
 ---
-
 
 Berkeley versus Stanford
 ========================
 
 As a graduate of both UC Berkeley and Stanford University, I have been occassionally asked to compare the two. My response, one that has developed from these inquiries over the years, has become quite complicated.
 
-The first thing to point out is that this was hardly a scientific experiment. I entered both universities at very different times in my life, with different goals, for different reasons. 
+The first thing to point out is that this was hardly a scientific experiment. I entered both universities at very different times in my life, with different goals, for different reasons.
 
 I went to Berkeley for four years, from the ages of 16 to 20, to grow as a person and learn some hard engineering. I cooked for the first time and studied everything from metal corrosion to biostatistics to Fourier transforms.
 
