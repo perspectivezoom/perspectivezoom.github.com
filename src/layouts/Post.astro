@@ -16,6 +16,12 @@ const { post } = Astro.props;
       <a href={postPath(post)}>{post.data.title}</a>
     </h2>
     <p id="date">{formatDate(post.data.date)}</p>
+    {post.data.aiUsage && (
+      <aside class="ai-usage" aria-labelledby="ai-usage">
+        <h3 id="ai-usage">AI usage</h3>
+        <p>{post.data.aiUsage}</p>
+      </aside>
+    )}
     <slot />
   </div>
 </Base>
@@ -27,6 +33,27 @@ const { post } = Astro.props;
   #post :global(section.footnotes) {
     border-top: 1px solid var(--color-rule);
     padding-top: 20px;
+  }
+
+  /* A boxed note between the date and the body, styled like a code block. */
+  .ai-usage {
+    background: var(--color-code-bg);
+    border: 1px solid var(--color-rule);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 0 0 20px;
+  }
+
+  .ai-usage h3 {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    margin: 0 0 5px;
+  }
+
+  .ai-usage p {
+    font-style: italic;
+    margin: 0;
   }
 
   #post :global(.sr-only) {

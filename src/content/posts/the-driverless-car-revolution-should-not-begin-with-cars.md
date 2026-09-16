@@ -1,6 +1,7 @@
 ---
 title: 'The Driverless Car Revolution Should Not Begin with Cars'
 date: 2013-11-03
+aiUsage: This post predates the rise of generative AI.
 ---
 
 Google announced they were working on self-driving cars in October of 2010,[^1] but it didn't become a Really Cool Thing until a year or two later. That coronation can be blamed partially on Koushik Dutta, when he posted 5 small paragraphs entitled "The Unintended Effects of Driverless Cars" in December 2011.[^2] His contribution was simply to get people to stop thinking about themselves. Sure, you could read a book in the car while moving from point A to pont B, but that is merely an Obviously Cool Thing. The Really Cool Thing was what happened when you weren't in the car at all, when you got to point B and didn't have to park and leave it there for the rest of the day. The car could instead be directed to, say, take your kid to soccer practice. A single vehicle would ably serve as the sole vehicle for an entire family. Or maybe three families. Crazy.
