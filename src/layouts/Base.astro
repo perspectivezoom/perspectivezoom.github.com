@@ -1,6 +1,7 @@
 ---
 // Port of the 2013 Jekyll default layout (_layouts/default.html), a modified
 // "minimal" theme by orderedlist.
+import '../styles/global.css';
 ---
 
 <!doctype html>
@@ -10,8 +11,9 @@
     <title>Perspective Zoom</title>
 
     <link rel="icon" type="image/png" href="/favico.png" />
-    <link rel="stylesheet" href="/stylesheets/styles.css" />
-    <link rel="stylesheet" href="/stylesheets/pygment_trac.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -41,3 +43,64 @@
     </div>
   </body>
 </html>
+
+<style>
+  /* Two columns: fixed sidebar (header + footer) on the left, content on the
+     right. Below 960px everything stacks in source order: content first. */
+  .wrapper {
+    width: 860px;
+    margin: 0 auto;
+  }
+
+  section.content {
+    width: 500px;
+    float: right;
+    padding-bottom: 50px;
+  }
+
+  header {
+    width: 270px;
+    float: left;
+    position: fixed;
+  }
+
+  header h1 a {
+    color: var(--color-heading);
+  }
+
+  footer {
+    width: 270px;
+    float: left;
+    position: fixed;
+    bottom: 50px;
+  }
+
+  @media print, screen and (max-width: 960px) {
+    .wrapper {
+      width: auto;
+      margin: 0;
+    }
+
+    header, section.content, footer {
+      float: none;
+      position: static;
+      width: auto;
+    }
+
+    header {
+      padding-right: 320px;
+    }
+
+    section.content {
+      border-bottom: 1px solid var(--color-rule);
+      padding: 20px 0;
+      margin: 0 0 20px;
+    }
+  }
+
+  @media print, screen and (max-width: 720px) {
+    header {
+      padding: 0;
+    }
+  }
+</style>
