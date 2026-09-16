@@ -6,7 +6,3 @@
 
 # generated types
 /.astro
-
-# legacy Jekyll (removed later in the migration)
-/_site
-/.bundle
