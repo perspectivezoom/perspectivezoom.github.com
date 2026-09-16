@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Base.astro
+layout: '@/layouts/Base.astro'
 ---
 
 Hi, I'm Michael Chen. Or, at least, one of many.
