@@ -1,8 +1,8 @@
 ---
-layout: default
 title: "Berkeley versus Stanford"
+date: 2013-05-16
+draft: true
 categories: [my life]
-published: false
 ---
 
 

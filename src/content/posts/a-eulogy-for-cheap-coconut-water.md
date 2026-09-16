@@ -1,7 +1,7 @@
 ---
-layout: default
 title: "Ritual Marketing: A Eulogy for Cheap Coconut Water"
-published: false
+date: 2012-09-05
+draft: true
 ---
 
 

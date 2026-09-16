@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { formatDate, postPath, publishedPosts } from '../../lib/posts';
+
+const posts = await publishedPosts();
+---
+
+<Base>
+  <h1 id="posts">Posts</h1>
+  <ul class="posts">
+    {
+      posts.map((post) => (
+        <li>
+          <span>{formatDate(post.data.date)}</span>
+          <a href={postPath(post)} class="postURL">
+            {post.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

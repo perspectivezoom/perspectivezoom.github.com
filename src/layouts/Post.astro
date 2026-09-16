@@ -1,0 +1,19 @@
+---
+// Port of the 2013 Jekyll post layout (_layouts/post.html).
+import Base from './Base.astro';
+import { formatDate, postPath, type Post } from '../lib/posts';
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+---
+
+<Base>
+  <div id="post">
+    <h2><a href={postPath(post)}>{post.data.title}</a></h2>
+    <p id="date">{formatDate(post.data.date)}</p>
+    <slot />
+  </div>
+</Base>
